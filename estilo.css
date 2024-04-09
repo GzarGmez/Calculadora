@@ -1,0 +1,73 @@
+body {
+  background-image: radial-gradient(circle at 47.66% 23.29%, #a6ffff 0, #a2ecff 25%, #9dd5f2 50%, #96bed5 75%, #8ea9ba 100%);
+  height: 100vh; /* Altura al 100% de la ventana visible */
+  width: 100vw; /* Ancho al 100% de la ventana visible */
+  margin: 0; /* Elimina el margen predeterminado del body */
+  padding: 0; /* Elimina el relleno predeterminado del body */
+}
+
+.center {
+  text-align: center; /* Centrar horizontalmente dentro del contenedor */
+}
+
+img {
+  width: 300px; /* Ancho deseado */
+  height: auto; /* Alto ajustado automáticamente */
+}
+
+.calculadora {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #15537a; /* Cambiar a gris */
+  width: 350px;
+  height: 500px;
+  border-radius: 25px;
+}
+
+  .calculadora td button{
+    display:block;
+    width:70px;
+    height: 67px;
+    font-size: 50px;
+  }
+  #creditos{
+    display:block;
+    padding-top:20px;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    width:300px;
+  }
+  #resultado{
+    display:block;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    width:300px;
+    height: 100px;
+    line-height: 100px;
+    background-color:rgb(217, 226, 239);
+    border-radius: 25px;
+    overflow-y: scroll;
+  }
+  div {
+    width: 50%;
+    margin: 0 auto;
+    padding: 1px;
+  }
+  
+  p {
+    font-weight: bold;
+    text-align: center;
+    font-size: 4vw;
+    color: lightblue;
+     -webkit-animation: changeColor 8s ease-in infinite;
+     animation: changeColor 4s ease-in infinite;
+  }
+  em {font-family: -webkit-pictograph; font-weight: lighter;}
+  
+  @-webkit-keyframes changeColor {
+    0% {color: rgb(31, 30, 30);}
+    50% {color: rgb(50, 50, 50)}
+    100% {color: rgb(0, 0, 0)}
+  }
